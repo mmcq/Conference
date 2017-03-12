@@ -11,6 +11,7 @@ if (Meteor.isServer) {
 }
 
 Meteor.methods({
+	//git commit problem
 	'question.insert'(question_text, sequence) {
 		check(question_text, String);
 		check(sequence, Number);

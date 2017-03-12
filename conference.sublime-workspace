@@ -57,23 +57,24 @@
 	},
 	"file_history":
 	[
-		"/D/websites/meteor/conference/imports/ui/layouts/admin/loadQuizLayout.js",
-		"/D/websites/meteor/conference/imports/api/tasks.js",
-		"/D/websites/meteor/conference/imports/api/quizList.js",
-		"/D/websites/meteor/conference/imports/ui/layouts/splashLayout.html",
-		"/D/websites/meteor/conference/imports/ui/layouts/splashLayout.js",
-		"/D/websites/meteor/conference/imports/ui/body.html",
+		"/D/websites/meteor/conference/imports/ui/layouts/quizLayout.html",
 		"/D/websites/meteor/conference/imports/ui/layouts/quizLayout.js",
+		"/D/websites/meteor/conference/imports/api/questionList.js",
+		"/D/websites/meteor/conference/imports/api/quizList.js",
+		"/D/websites/meteor/conference/imports/ui/layouts/splashLayout.js",
+		"/D/websites/meteor/conference/imports/ui/layouts/splashLayout.html",
+		"/D/websites/meteor/conference/server/main.js",
+		"/D/websites/meteor/conference/imports/ui/layouts/admin/loadQuizLayout.js",
+		"/D/websites/meteor/conference/imports/startup/client/routes.js",
+		"/D/websites/meteor/conference/imports/api/tasks.js",
+		"/D/websites/meteor/conference/imports/ui/body.html",
 		"/D/websites/meteor/conference/imports/startup/client/index.js",
 		"/D/websites/meteor/conference/imports/ui/body.js",
 		"/D/websites/meteor/conference/imports/ui/layouts/admin/loadQuizLayout.html",
-		"/D/websites/meteor/conference/server/main.js",
 		"/D/websites/meteor/conference/imports/ui/task.js",
 		"/D/websites/meteor/conference/imports/ui/task.html",
 		"/D/websites/meteor/conference/imports/api/questions.js",
 		"/D/websites/meteor/conference/imports/api/quizzes.js",
-		"/D/websites/meteor/conference/imports/startup/client/routes.js",
-		"/D/websites/meteor/conference/imports/ui/layouts/quizLayout.html",
 		"/P/smartestdoc/Kiosk/isi/gilead.cfm",
 		"/D/websites/meteor/conference/conference.sublime-project",
 		"/D/websites/meteor/conference/client/main.css",
@@ -183,8 +184,7 @@
 		"/H/__support/sql/bep/quiz-question-user-answer-counts.sql",
 		"/d/websites/mdlinx/www/cfcs/sd/sd_board_exam_prep.cfc",
 		"/D/websites/mdlinx/www/oncology/top-medical-news/article/index.cfm",
-		"/D/websites/mdlinx/www/oncology/medical-news-article/index_rdn.cfm",
-		"/D/websites/mdlinx/www/oncology/medical-news-article/index.cfm"
+		"/D/websites/mdlinx/www/oncology/medical-news-article/index_rdn.cfm"
 	],
 	"find":
 	{
@@ -211,6 +211,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"questions",
+			"questions.js",
 			"quiz_data",
 			"tasksPublication",
 			"loadQuizLayout",
@@ -336,9 +338,7 @@
 			"<ul class=\"nav nav-tabs\">",
 			"<nav class=\"nav-tabs-sd margin-bottom-15\">",
 			"nav.nav-tabs-sd ul.nav.nav-tabs li a {",
-			"605f5d",
-			"font-family:Helvetica, Arial, sans-serif;",
-			"nav.nav-tabs-sd ul.nav.nav-tabs li a {"
+			"605f5d"
 		],
 		"highlight": false,
 		"in_selection": false,
