@@ -1,0 +1,17 @@
+Make a new project
+
+Copy in directories:
+* /server/
+* /client/
+* /imports/
+
+In project directory:
+meteor npm install
+meteor npm install --save bcrypt
+meteor add reactive-dict
+meteor add accounts-ui accounts-password
+meteor add iron:router
+
+Once most initial development is done:
+meteor remove insecure
+meteor remove autopublish

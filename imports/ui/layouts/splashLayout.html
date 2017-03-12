@@ -1,0 +1,24 @@
+<template name="splashLayout">
+	<div class="container">
+		<header>
+			Welcome to the MDLinx Conference Quiz
+			<br /><br />
+			{{#each quiz_data}}
+				{{quiz_name}}
+			{{/each}}
+			<!--
+			<br /><br />
+			{{quiz_count}}
+			-->
+			<br /><br />
+			<button class="splash-start">
+				Take Quiz
+			</button>
+		</header>
+		<div style="text-align: center;">
+			Sponsored By
+			<br />
+			<img src="/images/xgeva-logo-sd-conf.jpg" />
+		</div>		
+	</div>
+</template>

@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "/D/websites/meteor/conference/server"
+		}
+		, {
+			"path": "/D/websites/meteor/conference/client"
+		}
+		, {
+			"path": "/D/websites/meteor/conference/imports"
+		}
+		, {
+			"path": "/D/websites/meteor/conference/public"
+		}
+	]
+}
