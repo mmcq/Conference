@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { Template } from 'meteor/templating';
-import { Quizzes } from '/imports/api/quizList.js';
-import { Questions } from '/imports/api/questions.js';
+import { Quiz } from '/imports/api/quizList.js';
+import { Question } from '/imports/api/questionList.js';
 
 import '/imports/ui/layouts/admin/loadQuizLayout.html';
 /*
@@ -14,9 +14,9 @@ Template.loadQuizLayout.events({
 	'click .load-quiz-initialize-database'(event) {
 		Meteor.call('quiz.insert', 'Astra-Zeneca Quiz', new Date());
 
-		Meteor.call('questions.insert', 'What is your name?', 1);
-		Meteor.call('questions.insert', 'What is your quest?', 2);
-		Meteor.call('questions.insert', 'What is your favorite color?', 3);
-		Meteor.call('questions.insert', 'What is the capital of Assyria?', 4);
+		Meteor.call('question.insert', 'What is your name?', 1);
+		Meteor.call('question.insert', 'What is your quest?', 2);
+		Meteor.call('question.insert', 'What is your favorite color?', 3);
+		Meteor.call('question.insert', 'What is the capital of Assyria?', 4);
 	},
 });

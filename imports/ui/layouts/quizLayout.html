@@ -1,7 +1,16 @@
 <template name="quizLayout">
 	<div class="container">
 		<header>
-			This is a quiz.
+			{{#each quiz_data}}
+				{{quiz_name}}
+			{{/each}}
 		</header>
+		<ul>
+			{{#each question_data}}
+				<li>
+					{{question_text}}
+				</li>
+			{{/each}}
+		</ul>
 	</div>
 </template>

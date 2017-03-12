@@ -2,29 +2,29 @@ import { Meteor } from 'meteor/meteor';
 import { Mongo } from 'meteor/mongo';
 import { check } from 'meteor/check';
 
-export const dbQuestions = new Mongo.Collection('questions');
+export const questionList = new Mongo.Collection('questions');
 
 if (Meteor.isServer) {
-	Meteor.publish('questionData', function questionsPublication() {
-		return dbQuestions.find();
+	Meteor.publish('questionPublication', function questionPublication() {
+		return questionList.find();
 	});
 }
 
 Meteor.methods({
-	'questions.insert'(question_text, sequence) {
+	'question.insert'(question_text, sequence) {
 		check(question_text, String);
 		check(sequence, Number);
 
-		dbQuestions.insert({
+		questionList.insert({
 			question_text,
 			sequence: sequence,
 			create_dt: new Date(),
 		});
 	},
 
-	'questions.remove'(question_id) {
+	'question.remove'(question_id) {
 		check(question_id, String);
 
-		dbQuestions.remove(question_id);
+		questionList.remove(question_id);
 	},
 });
