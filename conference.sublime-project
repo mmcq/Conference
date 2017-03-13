@@ -2,16 +2,16 @@
 	"folders":
 	[
 		{
-			"path": "/D/websites/meteor/conference/server"
+			"path": "/C/_meteor/conference/server"
 		}
 		, {
-			"path": "/D/websites/meteor/conference/client"
+			"path": "/C/_meteor/conference/client"
 		}
 		, {
-			"path": "/D/websites/meteor/conference/imports"
+			"path": "/C/_meteor/conference/imports"
 		}
 		, {
-			"path": "/D/websites/meteor/conference/public"
+			"path": "/C/_meteor/conference/public"
 		}
 	]
 }

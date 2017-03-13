@@ -11,13 +11,15 @@ if (Meteor.isServer) {
 }
 
 Meteor.methods({
-	'question.insert'(question_text, sequence) {
+	'question.insert'(quiz_id, question_text, sequence) {
+		check(quiz_id, String);
 		check(question_text, String);
 		check(sequence, Number);
 
-		questionList.insert({
+		return questionList.insert({
+			quiz_id,
 			question_text,
-			sequence: sequence,
+			sequence,
 			create_dt: new Date(),
 		});
 	},

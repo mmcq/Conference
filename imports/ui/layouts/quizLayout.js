@@ -7,8 +7,12 @@ import '/imports/ui/layouts/quizLayout.html';
 
 Template.quizLayout.onCreated(function splashLayoutOnCreated() {
 	//console.log('IN: quizLayout.onCreated();');
+	Meteor.subscribe('playerPublication');
 	Meteor.subscribe('quizPublication');
 	Meteor.subscribe('questionPublication');
+
+	// Add a player record to establish an ID
+	Meteor.call('player.insert');
 });
 
 Template.quizLayout.helpers({

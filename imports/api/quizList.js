@@ -15,7 +15,7 @@ Meteor.methods({
 		check(quiz_name, String);
 		check(quiz_date, Date);
 
-		quizList.insert({
+		return quizList.insert({
 			quiz_name: quiz_name,
 			quiz_date: quiz_date,
 			create_dt: new Date(),

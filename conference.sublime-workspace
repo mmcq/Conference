@@ -57,6 +57,15 @@
 	},
 	"file_history":
 	[
+		"/C/_meteor/conference/imports/ui/layouts/quizLayout.js",
+		"/C/_meteor/conference/imports/ui/layouts/quizLayout.html",
+		"/C/_meteor/conference/imports/api/questionList.js",
+		"/C/_meteor/conference/imports/api/playerList.js",
+		"/C/_meteor/conference/imports/ui/layouts/admin/loadQuizLayout.js",
+		"/C/_meteor/conference/imports/api/answerList.js",
+		"/C/_meteor/conference/imports/api/quizList.js",
+		"/C/_meteor/conference/server/main.js",
+		"/C/_meteor/conference/conference.sublime-project",
 		"/D/websites/meteor/conference/imports/ui/layouts/quizLayout.html",
 		"/D/websites/meteor/conference/imports/ui/layouts/quizLayout.js",
 		"/D/websites/meteor/conference/imports/api/questionList.js",
@@ -175,16 +184,7 @@
 		"/C/Users/void/Desktop/sd-nav/Daily-Quiz-nav/loggedin/css/sd-daily-quiz-v2.css",
 		"/C/Users/void/Desktop/sd-nav/Daily-Quiz-nav/loggedin/quizresults.html",
 		"/C/Users/void/Desktop/sd-nav/Daily-Quiz-nav/loggedin/rules.html",
-		"/C/Users/void/Desktop/sd-nav/Daily-Quiz-nav/loggedin/leaderboard.html",
-		"/C/Users/void/Desktop/sd-nav/Daily-Quiz-nav/loggedin/landing.html",
-		"/C/Users/void/Desktop/sd-nav/Daily-Quiz-nav/loggout/The-Smartest-Internist_loggedout.html",
-		"/C/Users/void/Desktop/sd-nav/Daily-Quiz-nav/loggout/css/smartestdoc_v28.css",
-		"/H/__support/sql/sd/board-exam-prep/quiz-question-user-answer-count.sql",
-		"/H/__support/sql/sd/reports/bep-bonus-questions.sql",
-		"/H/__support/sql/bep/quiz-question-user-answer-counts.sql",
-		"/d/websites/mdlinx/www/cfcs/sd/sd_board_exam_prep.cfc",
-		"/D/websites/mdlinx/www/oncology/top-medical-news/article/index.cfm",
-		"/D/websites/mdlinx/www/oncology/medical-news-article/index_rdn.cfm"
+		"/C/Users/void/Desktop/sd-nav/Daily-Quiz-nav/loggedin/leaderboard.html"
 	],
 	"find":
 	{
@@ -192,7 +192,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 96.0,
+		"height": 90.0,
 		"where_history":
 		[
 			"",
@@ -211,6 +211,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"playerList",
+			"quizList",
+			"D/websites/meteor/conference",
 			"questions",
 			"questions.js",
 			"quiz_data",
@@ -335,10 +338,7 @@
 			"<li><a href=\"#\" data-toggle=\"tab\" title=\" Board Exam Prep \">Board Exam Prep</a></li>",
 			"<li><a href=\"#\" data-toggle=\"tab\" title=\" Quiz Bank\">Quiz Bank</a></li>",
 			"<li class=\"active\"><a href=\"#\" data-toggle=\"tab\" title=\" Today's Quiz \">Today's Quiz</a></li>",
-			"<ul class=\"nav nav-tabs\">",
-			"<nav class=\"nav-tabs-sd margin-bottom-15\">",
-			"nav.nav-tabs-sd ul.nav.nav-tabs li a {",
-			"605f5d"
+			"<ul class=\"nav nav-tabs\">"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -346,6 +346,9 @@
 		"regex": true,
 		"replace_history":
 		[
+			"answerList",
+			"playerList",
+			"C/_meteor/conference",
 			"quizList",
 			"QuizList",
 			"QuizData",
@@ -470,10 +473,7 @@
 			"daily_tab_page_list",
 			"",
 			"sd_core",
-			"valid_time",
-			"get_untaken_quizzes",
-			"show_alumni_for_testing",
-			""
+			"valid_time"
 		],
 		"reverse": false,
 		"show_context": true,
